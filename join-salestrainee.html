@@ -1,0 +1,654 @@
+
+<!DOCTYPE html>
+<html lang="en">
+
+
+
+<head>
+  <meta charset="utf-8">
+  <meta content="width=device-width, initial-scale=1.0" name="viewport">
+  <title>Zaptodoor</title>
+
+ 
+  <link href="upload/file_6943bf4d50c1f6.89796043.png" rel="icon">
+  <link href="upload/file_6943bf4d50c1f6.89796043.png" rel="apple-touch-icon">
+
+  
+  <link href="https://fonts.googleapis.com/" rel="preconnect">
+  <link href="https://fonts.gstatic.com/" rel="preconnect" crossorigin>
+  <link
+    href="https://fonts.googleapis.com/css2?family=Roboto&amp;family=Poppins&amp;family=Raleway&amp;display=swap"
+    rel="stylesheet">
+
+ 
+  <link href="assets/vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+  <link href="assets/vendor/bootstrap-icons/bootstrap-icons.css" rel="stylesheet">
+  <link href="assets/vendor/aos/aos.css" rel="stylesheet">
+  <link href="assets/vendor/glightbox/css/glightbox.min.css" rel="stylesheet">
+  <link href="assets/vendor/swiper/swiper-bundle.min.css" rel="stylesheet">
+
+  <link href="assets/css/footer.html" rel="stylesheet">
+  <link href="assets/css/main.css" rel="stylesheet">
+
+  
+  <style>
+    
+    #header {
+        position: fixed;
+        top: 0;
+        left: 0;
+        width: 100%;
+        z-index: 9999;
+        background: #ffffff;
+    }
+
+    
+    body {
+        padding-top: 90px;
+    }
+
+    .navmenu ul li a {
+        position: relative;
+        text-decoration: none;
+        padding-bottom: 6px;
+    }
+
+    .navmenu ul li a::after {
+        content: "";
+        position: absolute;
+        left: 0;
+        bottom: 0;
+        width: 0;
+        height: 2px;
+        background-color: #4c0996;
+        transition: width 0.25s ease-in-out;
+    }
+
+    .navmenu ul li a:hover::after {
+        width: 100%;
+    }
+
+    .navmenu ul li a:hover {
+        color: #4c0996;
+    }
+
+    .navmenu ul li:last-child a::after {
+        display: none;
+    }
+
+    .navmenu ul li:last-child a:hover {
+        color: #ffffff;
+    }
+  </style>
+
+</head>
+
+<body>
+
+<header id="header" class="header">
+
+  <div class="branding d-flex align-items-center">
+    <div style="padding-right: 60px;"
+         class="container position-relative d-flex align-items-center justify-content-between">
+
+      <a href="index.html" class="logo d-flex align-items-center">
+        <img src="upload/file_6943c301586566.43364376.png"
+             alt="Zaptodoor Logo"
+             style="max-height: 45px;">
+      </a>
+
+      <nav id="navmenu" class="navmenu">
+        <ul style="align-items: center; padding-left: 160px;">
+          <li><a href="index.html">Home</a></li>
+          <li><a href="about-us.html">About</a></li>
+          <li><a href="services.html">Services</a></li>
+          <li><a href="press-release.html">Press Release</a></li>
+          <li><a href="contact-us.html">Contact</a></li>
+
+          <li>
+            <a
+              href="https://play.google.com/store/apps/details?id=com.zaptodoor.user&amp;pcampaignid=web_share"
+              target="_blank"
+              style="
+                margin-left: 250px;
+                display: inline-flex;
+                align-items: center;
+                padding: 10px 24px;
+                font-size: 14px;
+                font-weight: 600;
+                border-radius: 10px;
+                text-decoration: none;
+                cursor: pointer;
+                background-color: #4c0996;
+                color: #ffffff;
+                transition: transform 0.2s ease;
+              "
+              onmouseover="this.style.transform='scale(1.08)'"
+              onmouseout="this.style.transform='scale(1)'"
+              onmousedown="this.style.transform='scale(0.95)'"
+              onmouseup="this.style.transform='scale(1.08)'"
+            >
+              Download
+              <img
+                src="upload/file_694421c34e91f1.94199193.svg"
+                alt="Download icon"
+                style="height: 16px; margin-left: 8px; filter: brightness(0) invert(1);"
+              >
+            </a>
+          </li>
+        </ul>
+
+        <i class="mobile-nav-toggle d-xl-none bi bi-list"></i>
+      </nav>
+
+    </div>
+  </div>
+
+</header>
+
+</body>
+
+
+</html>
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+   
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    
+    <link rel="stylesheet" href="dashboard-enquiry/assets/css/bootstrap.min.html">
+
+    
+    <style>
+        
+        #thankYouMessage {
+            margin-top: 20px;
+            text-align: center;
+        }
+
+        .accent-background {
+            background-color: #ff813c;
+            color: #ffffff !important;
+        }
+
+        .btn {
+            width: 100%;
+            background-color: rgb(36, 182, 48);
+            color: #ffffff !important;
+        }
+
+        .btn:hover {
+            background-color: #e6813b;
+            border-color: #e6813b;
+            color: #ffffff;
+        }
+
+        
+        @media (max-width: 576px) {
+
+            .form-control,
+            .form-select {
+                font-size: 16px;
+                
+            }
+
+            .modal-header,
+            .modal-footer {
+                padding: 1rem;
+            }
+
+            .modal-title {
+                font-size: 20px;
+            }
+
+            .sp-container {
+                padding-left: 10px;
+                padding-right: 10px;
+            }
+
+            .col-12,
+            .col-md-6,
+            .col-lg-4 {
+                padding-left: 0px;
+                padding-right: 0px;
+            }
+
+            
+            .form-control {
+                padding: 10px;
+            }
+        }
+    </style>
+
+</head>
+
+<body>
+
+    <div class="sp-container py-2 py-sm-3 m-4 m-md-auto align-items-center" style="width: 90%; max-width: 1200px;">
+
+     
+        <div class="row justify-content-center">
+            <div class="bg-white p-3 p-sm-4 rounded shadow-sm w-100">
+                <form action="https://zaptodoor.com/save-join-salestrainee.php" method="post" enctype="multipart/form-data" id="joinSalespersonForm">
+
+                    <div class="modal-header p-3 p-sm-4 mt-2 accent-background rounded-top">
+                        <h5 class="modal-title fs-4 accent-background fw-bold" id="salespersonModalLabel">Join as a Sales Trainee</h5>
+                    </div>
+
+                    <div class="p-3 p-sm-4">
+                        <div class="modal-body row">
+
+                            <input type="hidden" name="salespersonId" id="salespersonId">
+
+                           
+                            <div class="mb-3 col-12 col-sm-6 col-md-4">
+                                <label for="name" class="form-label">Salesperson Name</label>
+                                <input type="text" name="name" id="name" class="form-control" required>
+                            </div>
+                            <div class="mb-3 col-12 col-sm-6 col-md-4">
+                                <label for="father_name" class="form-label">Father's Name</label>
+                                <input type="text" name="father_name" id="father_name" class="form-control">
+                            </div>
+
+                           
+                            <div class="mb-3 col-12">
+                                <label for="address" class="form-label">Address</label>
+                                <textarea name="address" id="address" class="form-control" rows="3"></textarea>
+                            </div>
+
+                            
+                            <div class="mb-3 col-12 col-sm-6 col-md-4">
+                                <label for="highest_education" class="form-label">Current Education</label>
+                                <select name="highest_education" id="highest_education" class="form-select">
+                                    <option value=""> - Select Current Education -</option>
+                                    <option value="below10">below 10th</option>
+                                    <option value="10th">10th</option>
+                                    <option value="12th">12th</option>
+                                    <option value="graduate">Graduate</option>
+                                    <option value="postgraduate">Post Graduate</option>
+                                </select>
+                            </div>
+                            <div class="mb-3 col-12 col-sm-6 col-md-4">
+                                <label for="current_semester" class="form-label">Current Semester</label>
+                                <select name="current_semester" id="current_semester" class="form-select">
+                                    <option value=""> - Select Current Semester -</option>
+                                    <option value="1stsem">1st Semester</option>
+                                    <option value="2ndsem">2nd Semester</option>
+                                    <option value="3rsem">3rd Semester</option>
+                                    <option value="4thsem">4th Semester</option>
+                                    <option value="5thsem">5th Semester</option>
+                                    <option value="6thsem">6th Semester</option>
+                                    <option value="7thsem">7th Semester</option>
+                                    <option value="8thsem">8th Semester</option>
+                                </select>
+                            </div>
+                            <div class="mb-3 col-12 col-sm-6 col-md-4">
+                                <label for="coursename" class="form-label">Pursuing Course</label>
+                                <input type="text" name="coursename" id="coursename" class="form-control">
+                            </div>
+                            <div class="mb-3 col-12 col-sm-6 col-md-4">
+                                <label for="phone" class="form-label">Phone</label>
+                                <input type="text" name="phone" id="phone" class="form-control">
+                            </div>
+                            
+                            <div class="mb-3 col-12 col-sm-6 col-md-4">
+                                <label for="bank_mobile" class="form-label">Bank Mobile</label>
+                                <input type="text" name="bank_mobile" id="bank_mobile" class="form-control">
+                            </div>
+
+                           
+                            <div class="mb-3 col-12 col-sm-6 col-md-4">
+                                <label for="bank_branch" class="form-label">Bank Branch</label>
+                                <input type="text" name="bank_branch" id="bank_branch" class="form-control">
+                            </div>
+                            <div class="mb-3 col-12 col-sm-6 col-md-4">
+                                <label for="ifsc" class="form-label">IFSC</label>
+                                <input type="text" name="ifsc" id="ifsc" class="form-control">
+                            </div>
+                            <div class="mb-3 col-12 col-sm-6 col-md-4">
+                                <label for="bank_name" class="form-label">Bank Name</label>
+                                <input type="text" name="bank_name" id="bank_name" class="form-control">
+                            </div>
+
+                            
+                            <div class="mb-3 col-12 col-sm-6 col-md-4">
+                                <label for="account_holder" class="form-label">Account Holder</label>
+                                <input type="text" name="account_holder" id="account_holder" class="form-control">
+                            </div>
+                            <div class="mb-3 col-12 col-sm-6 col-md-4">
+                                <label for="account_number" class="form-label">Account Number</label>
+                                <input type="text" name="account_number" id="account_number" class="form-control">
+                            </div>
+                            <div class="mb-3 col-12 col-sm-6 col-md-4">
+                                <label for="upi" class="form-label">UPI</label>
+                                <input type="text" name="upi" id="upi" class="form-control">
+                            </div>
+
+                            
+                            <div class="mb-3 col-12 col-sm-6 col-md-4">
+                                <label for="tshirt_size" class="form-label">T-Shirt Size</label>
+                                <select name="tshirt_size" id="tshirt_size" class="form-select">
+                                    <option value="">Select Size</option>
+                                    <option value="S">S</option>
+                                    <option value="M">M</option>
+                                    <option value="L">L</option>
+                                    <option value="XL">XL</option>
+                                    <option value="XXL">XXL</option>
+                                </select>
+                            </div>
+
+                            <hr>
+
+                            
+                            <div class="mb-3 col-12 col-sm-6 col-md-4">
+                                <label for="driving_license" class="form-label">Driving License Number</label>
+                                <input type="text" name="driving_license" id="driving_license" class="form-control">
+                            </div>
+
+                            <div class="mb-3 col-12 col-sm-6 col-md-4">
+                                <label for="driving_license_front" class="form-label">Driving License Front</label>
+                                <input type="file" name="driving_license_front" id="driving_license_front" class="form-control" accept=".jpg,.jpeg,.png,.gif,.pdf">
+                                <small class="form-text text-muted">Allowed file types: jpg, jpeg, png, gif, pdf. Max size: 5MB.</small>
+                            </div>
+                            <div class="mb-3 col-12 col-sm-6 col-md-4">
+                                <label for="driving_license_back" class="form-label">Driving License Back</label>
+                                <input type="file" name="driving_license_back" id="driving_license_back" class="form-control" accept=".jpg,.jpeg,.png,.gif,.pdf">
+                                <small class="form-text text-muted">Allowed file types: jpg, jpeg, png, gif, pdf. Max size: 5MB.</small>
+                            </div>
+                            <div class="mb-3 col-12 col-sm-6 col-md-4">
+                                <label for="vehicle_register_number" class="form-label">Vehicle Registration</label>
+                                <input type="file" name="vehicle_register_number" id="vehicle_register_number" class="form-control" accept=".jpg,.jpeg,.png,.gif,.pdf">
+                                <small class="form-text text-muted">Allowed file types: jpg, jpeg, png, gif, pdf. Max size: 5MB.</small>
+                            </div>
+
+                            
+                            <div class="mb-3 col-12 col-sm-6 col-md-4">
+                                <label for="aadhar_front" class="form-label">Aadhar Front</label>
+                                <input type="file" name="aadhar_front" id="aadhar_front" class="form-control" accept=".jpg,.jpeg,.png,.gif,.pdf">
+                                <small class="form-text text-muted">Allowed file types: jpg, jpeg, png, gif, pdf. Max size: 5MB.</small>
+                            </div>
+                            <div class="mb-3 col-12 col-sm-6 col-md-4">
+                                <label for="aadhar_back" class="form-label">Aadhar Back</label>
+                                <input type="file" name="aadhar_back" id="aadhar_back" class="form-control" accept=".jpg,.jpeg,.png,.gif,.pdf">
+                                <small class="form-text text-muted">Allowed file types: jpg, jpeg, png, gif, pdf. Max size: 5MB.</small>
+                            </div>
+                            <div class="mb-3 col-12 col-sm-6 col-md-4">
+                                <label for="pan_card" class="form-label">PAN Card</label>
+                                <input type="file" name="pan_card" id="pan_card" class="form-control" accept=".jpg,.jpeg,.png,.gif,.pdf">
+                                <small class="form-text text-muted">Allowed file types: jpg, jpeg, png, gif, pdf. Max size: 5MB.</small>
+                            </div>
+                            <div class="mb-3 col-12 col-sm-6 col-md-4">
+                                <label for="resume" class="form-label">Resume</label>
+                                <input type="file" name="resume" id="resume" class="form-control" accept=".jpg,.jpeg,.png,.gif,.pdf">
+                                <small class="form-text text-muted">Allowed file types: jpg, jpeg, png, gif, pdf. Max size: 5MB.</small>
+                            </div>
+                            <div class="modal-footer col-12">
+                                <button type="submit" class="btn fw-bolder my-3 p-2 fs-4">Submit</button>
+                            </div>
+                        </div>
+                    </div>
+                </form>
+            </div>
+        </div>
+
+    </div>
+
+    <!DOCTYPE html>
+<html lang="en">
+
+<head>
+  
+  <style>
+    
+    #footer {
+      background-color: #4c0996;
+      color: #fff;
+    }
+
+    #footer a {
+      color: #FFD600;
+      transition: color .2s;
+    }
+
+    #footer a:hover {
+      color: #fff;
+      text-decoration: none;
+    }
+
+   
+    #footer .sitename {
+      font-size: 1.75rem;
+      font-weight: bold;
+      color: #FFD600;
+    }
+
+   
+    #footer h4 {
+      font-size: 1.125rem;
+      font-weight: 600;
+      color: #FFD600;
+      margin-bottom: 1rem;
+    }
+
+    
+    #footer .support-list li {
+      margin-bottom: .5rem;
+      color: #fff;
+    }
+
+    
+    #footer .social-links a {
+      font-size: 1.5rem;
+      color: #fff;
+      margin-right: .5rem;
+    }
+
+    #footer .social-links a:hover {
+      color: #FFD600;
+    }
+
+    
+    #footer .footer-links ul li a {
+      display: block;
+      margin-bottom: .5rem;
+      color: #fff;
+    }
+
+    #footer .footer-links ul li a:hover {
+      color: #FFD600;
+    }
+
+   
+    #footer .footer-contact p,
+    #footer .footer-contact span {
+      color: #fff;
+    }
+
+    
+    .cert-title {
+      text-align: center;
+      font-size: 1.25rem;
+      font-weight: 600;
+      margin-top: 3rem;
+      color: #fff;
+      line-height: 1.2;
+    }
+
+    .certificates {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: center;
+      gap: 1.5rem;
+      margin-top: 1rem;
+    }
+
+   
+    .certificates img {
+      background-color: #fff;
+      border-radius: 12px;
+      padding: 12px;
+      max-width: 100px;
+      max-height: 100px;
+      box-shadow: 0 2px 6px rgba(0, 0, 0, 0.1);
+      transition: transform .2s;
+    }
+
+    .certificates img:hover {
+      transform: translateY(-4px);
+    }
+
+    
+    .footer-bottom {
+      background-color: rgba(255, 255, 255, 0.1);
+      text-align: center;
+      padding: 1.5rem 0;
+      margin-top: 2rem;
+      color: #fff;
+      position: relative;
+    }
+
+    .footer-bottom .copyright-content {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+      gap: 0.5rem;
+    }
+
+    .footer-bottom p {
+      margin: 0;
+      font-size: 1rem;
+      font-weight: 500;
+    }
+
+    .footer-bottom .copyright-year {
+      color: #FFD600;
+      font-weight: 600;
+    }
+
+    .footer-bottom .company-name {
+      color: #FFD600;
+      font-weight: 700;
+      font-size: 1.1rem;
+    }
+  </style>
+</head>
+
+<body>
+
+  <footer id="footer" class="footer">
+    <div class="container footer-top py-5">
+      <div class="row gy-4">
+       
+        <div class="col-lg-5 col-md-12 footer-about">
+          <a href="index.html" class="logo d-flex align-items-center mb-3">
+            <span class="sitename">ZAPTODOOR</span>
+          </a>
+          <ul class="support-list list-unstyled mb-3">
+            <li>Customer Support & Vendor Support</li>
+            <li>IVR: +91 83700 83744</li>
+            <li>Phone: +91 9200018690</li>
+            <li>Email: info@zaptodoor.com</li>
+          </ul>
+          <div class="social-links d-flex">
+            <a href="#https://www.facebook.com/profile.php?id=61570458010555" class="facebook"><i class="bi bi-facebook"></i></a>
+            <a href="#https://www.instagram.com/zaptodoor" class="instagram"><i class="bi bi-instagram"></i></a>
+            <a href="https://www.linkedin.com/company/zaptodoor-pvt-ltd/" class="linkedin"><i class="bi bi-linkedin"></i></a>
+            <a href="#https://www.youtube.com/@zaptodoor" class="youtube"><i class="bi bi-youtube"></i></a>
+            <a href="9200018690.html" class="whatsapp"><i class="bi bi-whatsapp"></i></a>
+            <a href="#https://x.com/zap_to_door" class="twitter"><i class="bi bi-twitter"></i></a>
+          </div>
+        </div>
+
+        
+        <div class="col-lg-2 col-6 footer-links">
+          <h4>Useful Links</h4>
+          <ul class="list-unstyled">
+            <li><a href="index.html">Home</a></li>
+            <li><a href="about-us.html">About Us</a></li>
+            <li><a href="contact-us.html">Contact Us</a></li>
+            <li><a href="services.html">Services</a></li>
+            <li><a href="our-certifications.html">Our Certifications</a></li>
+          </ul>
+        </div>
+
+        
+        <div class="col-lg-2 col-6 footer-links">
+          <h4>Important Links</h4>
+          <ul class="list-unstyled">
+            <li><a href="privacy-policy.html">Privacy Policy</a></li>
+            <li><a href="cancellation-policy.html">Cancellation Policy</a></li>
+            <li><a href="terms-condition.html">Terms & Conditions</a></li>
+            <li><a href="shipping-policy.html">Shipping Policy</a></li>
+            <li><a href="refund-policy.html">Refund Policy</a></li>
+          </ul>
+        </div>
+
+       
+        <div class="col-lg-3 col-md-12 footer-contact">
+          <h4>Contact Us</h4>
+          <p>Gwalior Smart city incubation center, Moti Mahal, Lashkar, Gwalior, Madhya Pradesh 474007</p>
+          
+        </div>
+      </div>
+
+      
+      <h5 class="cert-title">
+        Certified Quality &<br>
+        Government Recognized Partnerships
+      </h5>
+      <div class="certificates">
+                              <img src="upload/file_6943cc4977abe7.93552575.png"
+              alt="DPIIT">
+                      <img src="upload/685523ab8cc81.png"
+              alt="Gincube">
+                      <img src="upload/685523ab8cb77.png"
+              alt="FSSAI">
+                      <img src="upload/685523ab8ceb2.png"
+              alt="GST">
+                      <img src="upload/685523ab8d0d3.png"
+              alt="Smart City">
+                      <img src="upload/68552540dd938.png"
+              alt="MSME">
+                      <img src="upload/685523ab8d2d7.png"
+              alt="ISO">
+                  
+      </div>
+    </div>
+
+   
+    <div class="footer-bottom">
+      <div class="copyright-content">
+        <p>© <span class="copyright-year">2025</span> <span class="company-name">Zaptodoor</span> All Rights Reserved</p>
+        <p style="font-size: 0.9rem; opacity: 0.8;">Made with ❤️ for Better Food Delivery Experience</p>
+      </div>
+    </div>
+  </footer>
+
+  <a href="#" id="scroll-top" class="scroll-top d-flex align-items-center justify-content-center">
+    <i class="bi bi-arrow-up-short"></i>
+  </a>
+
+
+  <script src="assets/vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+  <script src="assets/vendor/php-email-form/validate.js"></script>
+  <script src="assets/vendor/aos/aos.js"></script>
+  <script src="assets/vendor/glightbox/js/glightbox.min.js"></script>
+  <script src="assets/vendor/swiper/swiper-bundle.min.js"></script>
+  <script src="assets/vendor/imagesloaded/imagesloaded.pkgd.min.js"></script>
+  <script src="assets/vendor/isotope-layout/isotope.pkgd.min.js"></script>
+
+  
+  <script src="assets/js/main.js"></script>
+</body>
+
+</html>
+  
+
+    <script src="dashboard-enquiry/assets/libs/bootstrap/js/bootstrap.bundle.min.html"></script>
+</body>
+
+</html>
